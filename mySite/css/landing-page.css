@@ -33,7 +33,7 @@ body{
 }
 
 .content-section-a{
-  padding: 50px;
+  padding: 60px;
   background-color: white;
 }
 
@@ -57,14 +57,13 @@ position: absolute;
 left: 25px;
 }
 
-.footer{
-  margin-left:auto;
-  margin-right:auto;
+.footer .row{
+  display: flex;
   justify-content: center;
 }
 
 footer{
-  padding: 50px 0px;
+  padding-top: 30px;
 }
 
 .leading{
@@ -72,7 +71,7 @@ footer{
 }
 
 
-@media(max-width:767px) {
+@media(min-width:542px) {
     .intro-message {
         padding-bottom: 15%;
     }
@@ -81,7 +80,7 @@ footer{
         font-size: 3em;
     }
 
-    ul.intro-social-buttons > li {
+    ul.social-media > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
