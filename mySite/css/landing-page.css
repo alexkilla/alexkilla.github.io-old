@@ -1,18 +1,19 @@
-body{
-  font-family: 'Lato', serif;
-  font-weight: 700;
+body {
+    font-family: 'Lato', serif;
+    font-weight: 700;
 }
 
 .topnav {
     font-size: 14px;
 }
 
-.navbar-default{
-  margin: 0;
+.navbar-default {
+    margin: 0;
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 50px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f0ecec;
@@ -26,71 +27,88 @@ body{
     padding-bottom: 20%;
 }
 
-.intro-message > h1 {
+.intro-message>h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 5em;
 }
 
-.content-section-a{
-  padding: 60px;
-  background-color: white;
+.skills {
+    padding-top: 50px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    color: #f0ecec;
+    background: url(../img/skills-section.png)no-repeat center center;
+    background-size: cover;
 }
 
-.vertical-align{
-  display: flex;
-  align-items: center;
+.content-section {
+    padding: 40px 20px;
+    background-color: white;
 }
 
-ul.nearsoft-bullet{
-  list-style-image: url(../img/nearsoft-bullet-cropped.png);
+.vertical-align {
+    display: flex;
+    align-items: center;
 }
 
-ul.hp-bullet li{ /* second well;*/
-list-style-type:none;
+ul.nearsoft-bullet {
+    list-style-image: url(../img/nearsoft-bullet-cropped.png);
 }
 
-ul.hp-bullet li:before{
-font-family: 'Glyphicons Halflings';
-content: "\e013";
-position: absolute;
-left: 25px;
+ul.hp-bullet li {
+    /* second well;*/
+    list-style-type: none;
 }
 
-.footer .row{
-  display: flex;
-  justify-content: center;
+ul.hp-bullet li:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e013";
+    position: absolute;
+    left: 25px;
 }
 
-footer{
-  padding-top: 30px;
+.footer .row {
+    text-align: center;
 }
 
-.leading{
-  padding-bottom: 20px;
+.leading {
+    padding-bottom: 20px;
 }
-
 
 @media(min-width:542px) {
-    .intro-message {
+    /*.intro-message {
         padding-bottom: 15%;
-    }
-
-    .intro-message > h1 {
+    }*/
+    .intro-message>h1 {
         font-size: 3em;
     }
-
-    ul.social-media > li {
+    ul.social-media>li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-
-    ul.intro-social-buttons > li:last-child {
+    ul.intro-social-buttons>li:last-child {
         margin-bottom: 0;
     }
-
     .intro-divider {
         width: 100%;
     }
+}
+
+.section-heading-spacer {
+    margin: 10px 0px;
+}
+
+.show-grid {
+    margin-bottom: 15px;
+}
+
+.show-grid [class^="col-"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eee;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86, 61, 124, .2);
 }
