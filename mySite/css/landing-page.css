@@ -47,6 +47,17 @@ body {
     background-color: white;
 }
 
+.content-section.contact h2 {
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+}
+
+.content-section.contact {
+    background-color: rgb(212, 93, 93);
+}
+
 .vertical-align {
     display: flex;
     align-items: center;
@@ -111,4 +122,8 @@ ul.hp-bullet li:before {
     background-color: rgba(86, 61, 124, .15);
     border: 1px solid #ddd;
     border: 1px solid rgba(86, 61, 124, .2);
+}
+
+div.contact .list-inline>li {
+    padding-right: 20px;
 }
